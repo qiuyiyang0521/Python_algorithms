@@ -1,5 +1,3 @@
-from random import randint
-
 
 def bubble_sort(li):
     for x in range(len(li) - 1): # 1趟
