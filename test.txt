@@ -1,0 +1,515 @@
+Adobe Photoshop 版本: 25.5.0 20240214.r.375 c4f33ec  x64
+启动次数: 12
+操作系统:Windows 11 64 位
+版本: 11 或更高版本 10.0.22631.3155
+系统结构: Intel CPU 系列: 6，型号: 7，分级: 5 使用 MMX、SSE Integer、SSE FP、SSE2、SSE3、SSE4.1、SSE4.2, AVX, AVX2, AVX-VNNI，超线程
+物理处理器数: 6
+逻辑处理器数: 12
+处理器速度: 2496 MHz
+内建内存: 16214 MB
+空闲内存:10383 MB
+Photoshop 可用的内存: 11947 MB
+Photoshop 占用的内存: 70 %
+崩溃处理程序：Adobe
+DCX Version: 7.13.2
+SAM SDK Version: 7.6.0-fio
+ACP.local Status:
+ - SDK Version: 3.4.0
+ - Core Sync Status: Unknown
+ - Core Sync Running: Unavailable
+ - Min Core Sync Required: 4.3.4.2
+实时编辑客户端 SDK 版本: 4.0.4
+Open Color IO 版本：2.3.2
+内容凭据不可用
+NGL 版本：1.36.0.10
+黑板：停用。
+D3D12 变形渲染器：停用。
+Manta 画布: 启用。
+别名图层: 停用。
+远光灯: 启用。
+图像拼贴大小: 1024K
+图像高速缓存级别: 4
+字体预览: 中
+HarfBuzz 版本: 7.3.0
+TextEngine: 统一文本引擎
+ ======= GPU
+本机 API 稳定: True
+OpenGL API 稳定: True
+OpenCL API 稳定: True
+GPUDeny:               0
+GPUForce:              0
+useGPU:                1
+useOpenCL:             1
+isGPUCapable:          1
+GPUName:               Radeon RX550/550 Series
+GPUVendor:             AMD
+IsNativeGPUCapable:    1
+IsOpenGLGPUCapable:    1
+IsOpenCLGPUCapable:    1
+HasSufficientRAM:      1
+  GPU accessible RAM:                 2,027 MB
+  Required GPU accessible RAM:        1,500 MB
+UseGraphicsProcessorChecked:   1
+UseOpenCLChecked:              1
+Windows remote desktop:  0
+Windows available feature level:     12.0
+Windows required feature level:      12.0
+Windows has required feature level:  1
+显示器: 1
+  显示边界：(0, 0) -> (2560, 1440)
+  显示缩放：1
+  显示类型：SDR
+ ------- Sniffer output
+[0 ms]
+  Launch GPUSnifferThread
+
+[1 ms]
+  Start RunAllAPIs
+
+[1 ms]
+  "C:\Program Files\Adobe\Adobe Photoshop 2024\sniffer.exe" -baseTimeMS=19431393 -comment=Photoshop Version: Adobe Photoshop 25.5.0 20240214.r.375 c4f33ec x64
+
+[1 ms]
+  Start GetSnifferResult
+
+[595 ms]
+  Start sniffer 2024-03-03 14:06:55
+  # Photoshop Version: Adobe Photoshop 25.5.0 20240214.r.375 c4f33ec x64
+  C:\Program Files\Adobe\Adobe Photoshop 2024\sniffer.exe -baseTimeMS=19431393 -comment=Photoshop Version: Adobe Photoshop 25.5.0 20240214.r.375 c4f33ec x64
+  
+  {46 ms}
+  Start platform native
+    # displays:                   1
+    Display 0
+      Display:                      \\.\DISPLAY1
+      Main:                         TRUE
+      Built in:                     FALSE
+      Stereo:                       FALSE
+      Bounds:                       (0, 0) -> (2,560, 1,440)
+      Dimensions:                   (2,560 1,440)
+      Display scale:                1
+      Physical size:                (0 0)
+      Pixel size:                   (0 0)
+      Dynamic range:                (0 1)
+      Potential dynamic range:      (0 1)
+      Reference dynamic range:      (0 1)
+      Attached Device:              (DeviceID name=Radeon RX550/550 Series index=0)
+    
+    # devices:                    1
+    Device 0
+      Name:                         Radeon RX550/550 Series
+      Preferred:                    TRUE
+      Power Envelope:               UNKNOWN
+      Attachment:                   UNKNOWN
+      # attached displays:          1
+        \\.\DISPLAY1
+      GPU accessible RAM:                2,027 MB
+      VRAM:                              2,027 MB
+      Dedicated System RAM:                  0 MB
+      Shared System RAM:                 8,500 MB
+      API version:                  12.0 (12.0)
+      Device version:               12.0 (12.0)
+      Vendor name:                  AMD
+      Driver date:                  2022-11-30  000000.000000-000
+      Driver age:                   16 months
+      Driver version:               31.0.12029.10015
+      Supports UMA:                 UNSUPPORTED
+      D3D-ID:                       27039
+  End platform native
+  {93 ms}
+  
+  {93 ms}
+  Start platform OpenGL
+    # displays:                   1
+    Display 0
+      Display:                      \\.\DISPLAY1
+      Main:                         TRUE
+      Built in:                     FALSE
+      Stereo:                       FALSE
+      Bounds:                       (0, 0) -> (2,560, 1,440)
+      Dimensions:                   (2,560 1,440)
+      Display scale:                1
+      Physical size:                (0 0)
+      Pixel size:                   (0 0)
+      Dynamic range:                (0 1)
+      Potential dynamic range:      (0 1)
+      Reference dynamic range:      (0 1)
+      Attached Device:              (DeviceID name=Radeon RX550/550 Series index=0)
+    
+    # devices:                    1
+    Device 0
+      Name:                         Radeon RX550/550 Series
+      Preferred:                    TRUE
+      Power Envelope:               INTEGRATED
+      Attachment:                   UNKNOWN
+      # attached displays:          1
+        \\.\DISPLAY1
+      GPU accessible RAM:                2,126 MB
+      VRAM:                              2,126 MB
+      Dedicated System RAM:                  0 MB
+      Shared System RAM:                 8,500 MB
+      API version:                  4.6 (4.6.0 Compatibility Profile Context 22.11.2.221130)
+      Device version:               4.6 (4.6.0 Compatibility Profile Context 22.11.2.221130)
+      Vendor name:                  AMD
+      Driver date:                  2022-11-30  000000.000000-000
+      Driver age:                   16 months
+      Driver version:               31.0.12029.10015
+      GLSL version:                 4.60 (4.60)
+  End platform OpenGL
+  {159 ms}
+  
+  {159 ms}
+  Start platform OpenCL
+    # displays:                   0
+    
+    # devices:                    1
+    Device 0
+      Name:                         gfx803
+      Preferred:                    TRUE
+      Power Envelope:               DISCRETE
+      Attachment:                   UNKNOWN
+      # attached displays:          0
+      GPU accessible RAM:                2,147 MB
+      VRAM:                              2,147 MB
+      Dedicated System RAM:                  0 MB
+      Shared System RAM:                     0 MB
+      API version:                  2.1 (OpenCL 2.1 AMD-APP (3444.0))
+      Device version:               2.0 (OpenCL 2.0 AMD-APP (3444.0))
+      Vendor name:                  AMD
+      Driver date:                  UNKNOWN
+      Driver age:                   UNKNOWN
+      Driver version:               UNKNOWN
+      Bandwidth:                    37 GB / s
+      Compute score:                489.452
+      Device name string:           gfx803      
+      Device vendor string:         Advanced Micro Devices, Inc.
+      Platform name string:         AMD Accelerated Parallel Processing
+      Platform vendor string:       Advanced Micro Devices, Inc.
+  End platform OpenCL
+  {494 ms}
+  
+  Exit code kExitNormal
+  End sniffer 2024-03-03 14:06:55
+[kStatusNormal, kExitNormal]
+
+[595 ms]
+  Finish RunAllAPIs
+
+[598 ms]
+  Finish GetSnifferResult
+
+ ------- Sniffer output
+ ======= GPU
+许可证类型: 订阅
+序列号: 91198705682269962157
+GUIDBucket: 
+Composite Core GPU (comp_core_gpu): on 
+Composite Core Threads (MultithreadedCompositing): on 
+Composite Core UI (comp_core_ui): off 
+Composite Core Feature Prefs (CompCoreFeaturePrefs): off 
+Document Graph (DocumentGraph): off 
+
+应用程序文件夹: C:\Program Files\Adobe\Adobe Photoshop 2024\
+临时文件路径: C:\Users\qiuyi\AppData\Local\Temp\
+Photoshop 暂存盘具有异步 I/O 已启用
+暂存卷:
+  启动，239.3G，130.0G 可用
+必需的增效工具文件夹: C:\Program Files\Adobe\Adobe Photoshop 2024\Required\Plug-ins\
+主要增效工具文件夹: C:\Program Files\Adobe\Adobe Photoshop 2024\Plug-ins\
+
+安装的组件:
+   ACE.dll   ACE 2023/11/23-09:21:32   151.d526588   151.d526588
+   act_tracing.dll   Copyright (c) 2021 Adobe. All Rights Reserved   1.0.58   
+   AdobeLinguistic.dll   Adobe Linguisitc Library   2d5dab2   
+   AdobeOwl.dll   Adobe Owl   5.5.0   
+   AdobePDFL.dll   PDFL 2023/11/07-13:18:05   79.82c92b1   79.82c92b1
+   AdobePIP.dll   Adobe Product Improvement Program   8.2.0.16   
+   AdobeSVGAGM.dll   AdobeSVGAGM   79.4d9d554   79.4d9d554
+   AdobeXMP.dll   Adobe XMP Core 2023/11/09-12:40:27   79.f354efc   79.f354efc
+   AdobeXMPFiles.dll   Adobe XMP Files 2023/11/09-12:40:27   79.f354efc   79.f354efc
+   AdobeXMPScript.dll   Adobe XMP Script 2023/11/09-12:40:27   79.f354efc   79.f354efc
+   AGM.dll   AGM 2023/11/23-09:21:32   151.d526588   151.d526588
+   AID.dll   AID DLL   1.0.0.58   
+   AIDE.dll   AIDE 2023/11/10-05:16:23   79.e59fc31   79.e59fc31
+   aifm.dll   AIFM   1.0   23.68434
+   AILib.dll   Adobe Illustrator 2024   28.0.0   
+   aiport.dll   AIPort   1.0   23.68434
+   ARE.dll   ARE 2023/11/23-09:21:32   151.d526588   151.d526588
+   AXE8SharedExpat.dll   AXE8SharedExpat 2023/11/01-19:10:59   79.a28ee6c   79.a28ee6c
+   AXEDOMCore.dll   AXEDOMCore 2023/11/01-19:10:59   79.a28ee6c   79.a28ee6c
+   BIB.dll   BIB 2023/11/23-09:21:32   151.d526588   151.d526588
+   BIBUtils.dll   BIBUtils 2023/11/23-09:21:32   151.d526588   151.d526588
+   boost_chrono.dll   photoshopdva   22.0.0   
+   boost_date_time.dll   photoshopdva   22.0.0   
+   boost_filesystem.dll   photoshopdva   22.0.0   
+   boost_regex.dll   photoshopdva   22.0.0   
+   boost_system.dll   photoshopdva   22.0.0   
+   boost_threads.dll   photoshopdva   22.0.0   
+   CoolType.dll   CoolType 2023/11/23-09:21:32   151.d526588   151.d526588
+   CRClient.dll   Adobe Crash Reporter Client DLL   14.0.0.202310260823_2e78abe   
+   DirectML.dll   DirectML Redistributable Library   1.10.1+230125-1155.1.dml-1.10.177341d   
+   dnssd.dll   Bonjour   3,0,0,2   
+   dvaaccelerate.dll   photoshopdva   22.0.0   
+   dvaappsupport.dll   photoshopdva   22.0.0   
+   dvaaudiodevice.dll   photoshopdva   22.0.0   
+   dvaaudiodsp.dll   photoshopdva   22.0.0   
+   dvacore.dll   photoshopdva   22.0.0   
+   dvacrashhandler.dll   Adobe Audition CC 2017   10.0.0   
+   dvamarshal.dll   photoshopdva   22.0.0   
+   dvamediatypes.dll   photoshopdva   22.0.0   
+   dvametadata.dll   photoshopdva   22.0.0   
+   dvametadataapi.dll   photoshopdva   22.0.0   
+   dvametadataUI.dll   photoshopdva   22.0.0   
+   dvanet.dll   photoshopdva   22.0.0   
+   dvaplayer.dll   photoshopdva   22.0.0   
+   dvascripting.dll   photoshopdva   22.0.0   
+   dvatransport.dll   photoshopdva   22.0.0   
+   dvaui.dll   photoshopdva   22.0.0   
+   dvavulcansupport.dll   photoshopdva   22.0.0   
+   dynamic-torqnative.dll   Unified Extensibility Platform   uxp-7.4.1-release   
+   dynamiclink.dll   photoshopdva   22.0.0   
+   ExtendScript.dll   ExtendScript 2022/08/18-12:50:45   82.4   82.4
+   filterport.dll   FilterPort   1.1   O
+   icucnv73.dll   International Components for Unicode    Build 14.0.1.04ee3a5   
+   icuin73.dll   International Components for Unicode    Build 14.0.1.04ee3a5   
+   icuuc73.dll   International Components for Unicode    Build 14.0.1.04ee3a5   
+   ippcc.dll   ippCC. Intel(R) Integrated Performance Primitives. Color Conversion.   2021.6 (r0xbffe3c5b)   
+   ippcck0.dll   ippCC. Intel(R) Integrated Performance Primitives. Color Conversion.   2021.6 (r0xbffe3c5b)   
+   ippccl9.dll   ippCC. Intel(R) Integrated Performance Primitives. Color Conversion.   2021.6 (r0xbffe3c5b)   
+   ippccy8.dll   ippCC. Intel(R) Integrated Performance Primitives. Color Conversion.   2021.6 (r0xbffe3c5b)   
+   ippcore.dll   core. Intel(R) Integrated Performance Primitives. Core Library.   2021.6 (r0xbffe3c5b)   
+   ippcv.dll   ippCV. Intel(R) Integrated Performance Primitives. Computer Vision.   2021.6 (r0xbffe3c5b)   
+   ippcvk0.dll   ippCV. Intel(R) Integrated Performance Primitives. Computer Vision.   2021.6 (r0xbffe3c5b)   
+   ippcvl9.dll   ippCV. Intel(R) Integrated Performance Primitives. Computer Vision.   2021.6 (r0xbffe3c5b)   
+   ippcvy8.dll   ippCV. Intel(R) Integrated Performance Primitives. Computer Vision.   2021.6 (r0xbffe3c5b)   
+   ippi.dll   ippIP. Intel(R) Integrated Performance Primitives. Image Processing.   2021.6 (r0xbffe3c5b)   
+   ippik0.dll   ippIP. Intel(R) Integrated Performance Primitives. Image Processing.   2021.6 (r0xbffe3c5b)   
+   ippil9.dll   ippIP. Intel(R) Integrated Performance Primitives. Image Processing.   2021.6 (r0xbffe3c5b)   
+   ippiy8.dll   ippIP. Intel(R) Integrated Performance Primitives. Image Processing.   2021.6 (r0xbffe3c5b)   
+   ipps.dll   ippSP. Intel(R) Integrated Performance Primitives. Signal Processing.   2021.6 (r0xbffe3c5b)   
+   ippsk0.dll   ippSP. Intel(R) Integrated Performance Primitives. Signal Processing.   2021.6 (r0xbffe3c5b)   
+   ippsl9.dll   ippSP. Intel(R) Integrated Performance Primitives. Signal Processing.   2021.6 (r0xbffe3c5b)   
+   ippsy8.dll   ippSP. Intel(R) Integrated Performance Primitives. Signal Processing.   2021.6 (r0xbffe3c5b)   
+   ippvm.dll   ippVM. Intel(R) Integrated Performance Primitives. Vector Math.   2021.6 (r0xbffe3c5b)   
+   ippvmk0.dll   ippVM. Intel(R) Integrated Performance Primitives. Vector Math.   2021.6 (r0xbffe3c5b)   
+   ippvml9.dll   ippVM. Intel(R) Integrated Performance Primitives. Vector Math.   2021.6 (r0xbffe3c5b)   
+   ippvmy8.dll   ippVM. Intel(R) Integrated Performance Primitives. Vector Math.   2021.6 (r0xbffe3c5b)   
+   JP2KLib.dll   JP2KLib 2023/10/17-19:30:38   79.eda3309   79.eda3309
+   libeay32.dll   The OpenSSL Toolkit   1.0.2zg   
+   libifcoremd.dll   Intel(r) Visual Fortran Compiler   10.0 (Update A)   
+   libiomp5md.dll   Intel(R) OpenMP* Runtime Library   5.0   
+   libmmd.dll   Intel(R) C/C++/Fortran Compiler   Mainline   
+   libzip.dll   photoshopdva   22.0.0   
+   LogSession.dll   LogSession   8.2.0.16   
+   mediacoreif.dll   photoshopdva   22.0.0   
+   Microsoft.AI.MachineLearning.dll   Microsoft® Windows® Operating System   1.14.20230410.1.429e1e3   
+   mkl_avx2.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_avx512.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_core.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_def.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_mc3.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_sequential.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_vml_avx2.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_vml_avx512.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_vml_def.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   mkl_vml_mc3.2.dll   Intel(R) oneAPI Math Kernel Library   2022.1   
+   MPS.dll   MPS 2023/11/07-13:18:05   79.7a67d56   79.7a67d56
+   onnxruntime.dll   Microsoft® Windows® Operating System   1.14.20230410.1.429e1e3   
+   opencv_world452.dll   OpenCV library   4.5.2   
+   pdfport.dll   PDFPort 2020/11/19-11:34:27   79.625377   79.625377
+   Plugin.dll   Adobe Photoshop 2024   25.5   
+   PlugPlugExternalObject.dll   Adobe(R) CEP PlugPlugExternalObject Standard Dll (64 bit)   11.5.2   
+   PlugPlugOwl.dll   Adobe(R) CSXS PlugPlugOwl Standard Dll (64 bit)   11.5.2.130   
+   PSCloud.dll                                                   1.0.0.1   
+   PSRes.dll   Adobe Photoshop 2024   25.5   
+   PSViews.dll   Adobe Photoshop 2024   25.5   
+   ScCore.dll   ScCore 2022/08/18-12:50:45   82.4   82.4
+   ssleay32.dll   The OpenSSL Toolkit   1.0.2zg   
+   SVGRE.dll   SVGRE   79.968b720   79.968b720
+   svml_dispmd.dll   Intel(R) C/C++/Fortran Compiler   Mainline   
+   VulcanControl.dll   Vulcan Application Control Library   7.2.0.34   
+   VulcanMessage5.dll   Vulcan Message Library   7.2.0.34   
+   WinRTSupport.dll   Adobe Photoshop Windows RT Support   1.0.1.0   
+   WRServices.dll   WRServices    Build 18.0.0.788c4ff   18.0.0.788c4ff
+   统一的可扩展性平台 uxp-7.4.1-release
+   UPIC  2.6.0
+
+
+必需的增效工具:
+
+   “裁剪并拉直照片”滤镜 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   BMP 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   Camera Raw 16.2 - 来自文件“Camera Raw.8bi”
+   Camera Raw 滤镜 16.2 - 来自文件“Camera Raw.8bi”
+   Cineon 25.5 - 来自文件“Cineon.8bi”
+   Dicom 25.5 - 来自文件“Dicom.8bi”
+   FastCore 例程 25.5 - 来自文件“FastCore.8bx”
+   Halide Bottlenecks 25.5 - 来自文件“HalideBottlenecks.8bx”
+   HDRMergeUI 25.5 - 来自文件“HDRMergeUI.8bf”
+   HSB/HSL 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   IFF 格式 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   JPEG 2000 25.5 - 来自文件“JPEG2000.8bi”
+   Matlab Operation 25.5 - 来自文件“ChannelPort.8bf”
+   MeasurementCore 25.5 - 来自文件“MeasurementCore.8me”
+   MMXCore 例程 25.5 - 来自文件“MMXCore.8bx”
+   NTSC 颜色 25.5 - 来自文件“NTSC Colors.8bf”
+   OpenEXR 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   Parametric Filter NO VERSION - 来自文件“MaterialFilter.8bf”
+   PCX 25.5 - 来自文件“PCX.8bi”
+   Pixar 25.5 - 来自文件“Pixar.8bi”
+   Portable Bit Map 25.5 - 来自文件“PBM.8bi”
+   Radiance 25.5 - 来自文件“Radiance.8bi”
+   SP Substance Suite NO VERSION - 来自文件“MaterialSuite.8li”
+   Targa 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   WIA 支持 25.5 - 来自文件“WIASupport.8li”
+   中间值 25.5 - 来自文件“statistics.8ba”
+   云彩 25.5 - 来自文件“Clouds.8bf”
+   便条纸 25.5 - 来自文件“Filter Gallery.8bf”
+   偏度 25.5 - 来自文件“statistics.8ba”
+   凸出 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   分层云彩 25.5 - 来自文件“Clouds.8bf”
+   切变 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   半调图案 25.5 - 来自文件“Filter Gallery.8bf”
+   喷溅 25.5 - 来自文件“Filter Gallery.8bf”
+   喷色描边 25.5 - 来自文件“Filter Gallery.8bf”
+   图片包滤镜 25.5 - 来自文件“ChannelPort.8bf”
+   图章 25.5 - 来自文件“Filter Gallery.8bf”
+   基底凸现 25.5 - 来自文件“Filter Gallery.8bf”
+   塑料包装 25.5 - 来自文件“Filter Gallery.8bf”
+   墨水轮廓 25.5 - 来自文件“Filter Gallery.8bf”
+   壁画 25.5 - 来自文件“Filter Gallery.8bf”
+   多处理器支持 25.5 - 来自文件“MultiProcessor Support.8bx”
+   存储为 Web 所用格式 25.5 - 来自文件“Save for Web.8be”
+   导出颜色查找表 25.5 - 来自文件“Export3DLUT.8be”
+   峰度 25.5 - 来自文件“statistics.8ba”
+   干画笔 25.5 - 来自文件“Filter Gallery.8bf”
+   平均 25.5 - 来自文件“Average.8bf”
+   平均值 25.5 - 来自文件“statistics.8ba”
+   底纹效果 25.5 - 来自文件“Filter Gallery.8bf”
+   强化的边缘 25.5 - 来自文件“Filter Gallery.8bf”
+   彩色半调 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   彩色铅笔 25.5 - 来自文件“Filter Gallery.8bf”
+   影印 25.5 - 来自文件“Filter Gallery.8bf”
+   径向模糊 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   总和 25.5 - 来自文件“statistics.8ba”
+   成角的线条 25.5 - 来自文件“Filter Gallery.8bf”
+   扩散亮光 25.5 - 来自文件“Filter Gallery.8bf”
+   拼缀图 25.5 - 来自文件“Filter Gallery.8bf”
+   拼贴 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   挤压 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   撕边 25.5 - 来自文件“Filter Gallery.8bf”
+   方差 25.5 - 来自文件“statistics.8ba”
+   旋转扭曲 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   无线位图 25.5 - 来自文件“WBMP.8bi”
+   晶格化 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   曝光过度 25.5 - 来自文件“Solarize.8bf”
+   最大值 25.5 - 来自文件“statistics.8ba”
+   最小值 25.5 - 来自文件“statistics.8ba”
+   木刻 25.5 - 来自文件“Filter Gallery.8bf”
+   极坐标 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   染色玻璃 25.5 - 来自文件“Filter Gallery.8bf”
+   标准偏差 25.5 - 来自文件“statistics.8ba”
+   水彩 25.5 - 来自文件“Filter Gallery.8bf”
+   水彩画纸 25.5 - 来自文件“Filter Gallery.8bf”
+   水波 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   波浪 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   波纹 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   海报边缘 25.5 - 来自文件“Filter Gallery.8bf”
+   海洋波纹 25.5 - 来自文件“Filter Gallery.8bf”
+   海绵 25.5 - 来自文件“Filter Gallery.8bf”
+   涂抹棒 25.5 - 来自文件“Filter Gallery.8bf”
+   消失点 25.5 - 来自文件“VanishingPoint.8bf”
+   液化 25.5 - 来自文件“Liquify.8bf”
+   深色线条 25.5 - 来自文件“Filter Gallery.8bf”
+   渲染颜色查找网格 25.5 - 来自文件“Export3DLUT.8be”
+   滤镜库 25.5 - 来自文件“Filter Gallery.8bf”
+   炭笔 25.5 - 来自文件“Filter Gallery.8bf”
+   炭精笔 25.5 - 来自文件“Filter Gallery.8bf”
+   点状化 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   烟灰墨 25.5 - 来自文件“Filter Gallery.8bf”
+   照亮边缘 25.5 - 来自文件“Filter Gallery.8bf”
+   熵 25.5 - 来自文件“statistics.8ba”
+   特殊模糊 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   玻璃 25.5 - 来自文件“Filter Gallery.8bf”
+   球面化 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   石膏效果 25.5 - 来自文件“Filter Gallery.8bf”
+   粉笔和炭笔 25.5 - 来自文件“Filter Gallery.8bf”
+   粗糙蜡笔 25.5 - 来自文件“Filter Gallery.8bf”
+   纤维 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   纹理化 25.5 - 来自文件“Filter Gallery.8bf”
+   绘图笔 25.5 - 来自文件“Filter Gallery.8bf”
+   绘画涂抹 25.5 - 来自文件“Filter Gallery.8bf”
+   网状 25.5 - 来自文件“Filter Gallery.8bf”
+   置换 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   胶片颗粒 25.5 - 来自文件“Filter Gallery.8bf”
+   脚本支持 25.5 - 来自文件“ScriptingSupport.8li”
+   自适应广角 25.5 - 来自文件“Adaptive Wide Angle.8bf”
+   范围 25.5 - 来自文件“statistics.8ba”
+   裁剪并拉直照片 25.5 - 来自文件“CropPhotosAuto.8li”
+   调色刀 25.5 - 来自文件“Filter Gallery.8bf”
+   路径到 Illustrator 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   逐行 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   铜版雕刻 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   铬黄 25.5 - 来自文件“Filter Gallery.8bf”
+   镜头光晕 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   镜头校正 25.5 - 来自文件“Lens Correction.8bf”
+   镜头模糊 25.5 - 来自文件“Lens Blur.8bf”
+   阴影线 25.5 - 来自文件“Filter Gallery.8bf”
+   霓虹灯光 25.5 - 来自文件“Filter Gallery.8bf”
+   颗粒 25.5 - 来自文件“Filter Gallery.8bf”
+   风 25.5 - 来自文件“Standard MultiPlugin.8bf”
+   马赛克拼贴 25.5 - 来自文件“Filter Gallery.8bf”
+   龟裂缝 25.5 - 来自文件“Filter Gallery.8bf”
+
+可选的和第三方增效工具: 无
+
+
+重复和禁用的增效工具: 无
+
+
+未能载入的增效工具: 无
+
+统一的可扩展性平台 - 扩展:
+
+   Home Screen (已载入) 7.3.0.57 - 来自文件“C:\Program Files\Common Files\Adobe/UXP/Extensions\com.adobe.ccx.start-7.3.0\”
+   CmdN: 1.19.26
+    UAB: 2.18.0-4
+      加载时间: 65 毫秒 - 启动时间影响: 21 毫秒
+   ccx-timeline (已准备) 3.1.12.0 - 来自文件“所需文件夹”
+   CCX Commenting UXP Webview (已载入) 30.1.0.0 - 来自文件“所需文件夹”
+      加载时间: 4566 毫秒 - 启动时间影响: 0 毫秒
+   CCX Sharesheet UXP (已准备) 29.4.0.0 - 来自文件“所需文件夹”
+   Content Credentials (已载入) 0.42.17.0 - 来自文件“所需文件夹”
+      加载时间: 4272 毫秒 - 启动时间影响: 0 毫秒
+   CC Libraries Panel (已准备) 4.5.63.0 - 来自文件“所需文件夹”
+   CAPTURE: 2.0.41  STOCK: 4.2.2
+   In app notifications (已载入) 2.0.5.0 - 来自文件“所需文件夹”
+      加载时间: 4566 毫秒 - 启动时间影响: 0 毫秒
+   参数滤波器 (已载入) 0.1.8.0 - 来自文件“所需文件夹”
+      加载时间: 4567 毫秒 - 启动时间影响: 1 毫秒
+   Photoshop Adjustments Panel (已载入) 2.1.16.0 - 来自文件“所需文件夹”
+      加载时间: 4567 毫秒 - 启动时间影响: 2 毫秒
+   Photoshop UXP Export-As (已准备) 5.8.37.0 - 来自文件“所需文件夹”
+   Photoshop In App Messaging (已载入) 4.3.9.0 - 来自文件“所需文件夹”
+      加载时间: 4567 毫秒 - 启动时间影响: 0 毫秒
+   Information Alert (已准备) 0.5.0.0 - 来自文件“所需文件夹”
+   Photoshop Selection Feedback (已准备) 0.5.0.0 - 来自文件“所需文件夹”
+   Plugins Panel (已准备) 1.4.3.0 - 来自文件“所需文件夹”
+   IC popup message (已载入) 1.0.0.0
+      加载时间: 3231 毫秒 - 启动时间影响: 0 毫秒
+   Multilayer Protection (已载入) 1.0.0.0
+      加载时间: 3231 毫秒 - 启动时间影响: 0 毫秒
+   Discover Panel (已载入) 2401.91.0.9 - 来自文件“所需文件夹”
+      加载时间: 4568 毫秒 - 启动时间影响: 14 毫秒
+   Neural Filters (已注册) 1.15.0.100 - 来自文件“所需文件夹”
+   扫描时间：0 毫秒 — 条目：26 
+
+扩展功能:
+
+   com.adobe.stock.panel.licensing-embedded  4.0.35 - 来自文件“C:\Program Files\Adobe\Adobe Photoshop 2024\Required\CEP\extensions\com.adobe.DesignLibraryPanel.html\extensions\stock-panel-licensing\index.html”
+   com.adobe.capture.extension  2.0.41 - 来自文件“C:\Program Files\Adobe\Adobe Photoshop 2024\Required\CEP\extensions\com.adobe.DesignLibraryPanel.html\extensions\capture\capture.html”
+   导出为  4.8.15 - 来自文件“C:\Program Files\Adobe\Adobe Photoshop 2024\Required\CEP\extensions\com.adobe.photoshop.crema\index.html”
+   导出为  4.8.15 - 来自文件“C:\Program Files\Adobe\Adobe Photoshop 2024\Required\CEP\extensions\com.adobe.photoshop.crema\index.html”
+   com.adobe.cclibraries.manager  1.0.0 - 来自文件“C:\Program Files\Adobe\Adobe Photoshop 2024\Required\CEP\extensions\com.adobe.DesignLibraryPanel.html\manager.html”
+
+已安装的 TWAIN 设备: 无
