@@ -26,17 +26,19 @@ def partition(data: list, left: int, right: int) -> int:
 def quick_sort(data: list, left: int, right: int) -> list:
     # print(f"{left}到{right}")
 
+    __data =  data.copy()
+
     # 如果左边索引小于右边索引，继续进行排序
     if left < right:
         # 选择基准元素并进行分区操作
-        mid = partition(data, left, right)
+        mid = partition(__data, left, right)
         # 对基准元素左边的子数组进行递归排序
-        quick_sort(data, left, mid - 1)
+        quick_sort(__data, left, mid - 1)
         # 对基准元素右边的子数组进行递归排序
-        quick_sort(data, mid + 1, right)
+        quick_sort(__data, mid + 1, right)
 
     # print("排序完成")
-    return data
+    return __data
 
 
 if __name__ == '__main__':
@@ -48,4 +50,3 @@ if __name__ == '__main__':
     time_stop = time.time()  # 记录结束时间
     print(time_stop - time_start)  # 打印排序所用时间
     print(lst)  # 打印排序后的列表
-

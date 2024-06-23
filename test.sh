@@ -1,3 +1,3 @@
 while [ true ]; do
-    cmd
-done 
+    printf "FU"
+done
