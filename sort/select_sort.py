@@ -1,8 +1,8 @@
 from random import shuffle
-from cal_time import cal_time
+from timer import timer
 
 
-@cal_time
+@timer
 def select_sort_simple(lst):
     lst = lst  # 定义一个局部变量，以免影响全局变量
     sorted_lst = []
@@ -14,7 +14,7 @@ def select_sort_simple(lst):
     return sorted_lst
 
 
-@cal_time
+@timer
 def select_sort(lst):
     for i in range(len(lst) - 1):
         min_loc = i

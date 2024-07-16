@@ -1,8 +1,8 @@
 from random import shuffle
-from cal_time import cal_time
+from timer import timer
 
 
-@cal_time
+@timer
 def insert_sort(li):
     """
     插入排序算法

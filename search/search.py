@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
-import cal_time
-
-@cal_time.cal_time
+import timer
+@cal_time
 def linear_search(li, value):
     for index, val in enumerate(li):
         if val == value:
@@ -10,7 +9,7 @@ def linear_search(li, value):
         return None
 
 
-@cal_time.cal_time
+@cal_time
 def binary_search(li, value):
     left = 0
     right = len(li) - 1

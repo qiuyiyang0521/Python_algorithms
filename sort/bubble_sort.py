@@ -1,6 +1,6 @@
-from cal_time import cal_time
+from timer import timer
 
-@cal_time
+@timer
 def bubble_sort(li):
     for x in range(len(li) - 1): # 1趟
         for y in range(len(li) - x - 1):
