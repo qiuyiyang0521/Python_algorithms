@@ -1,8 +1,3 @@
-from random import shuffle
-from timer import timer
-
-
-@timer
 def insert_sort(li):
     """
     插入排序算法
@@ -17,26 +12,3 @@ def insert_sort(li):
             li[j + 1] = li[j]  # 将之前元素的值放在当前元素的位置上
             j -= 1  # 减小索引变量的值
         li[j + 1] = tmp  # 将当前元素的值放在正确的位置上
-
-    return li  # 返回排序后的列表
-
-
-li = list(range(10000))
-shuffle(li)
-#
-# li_insert_sort = insert_sort(li)
-# print("插入排序:", li_insert_sort)
-#
-# li_select_sort_simple = select_sort_simple(li)
-# print("选择排序简单版: ", li_select_sort_simple)
-#
-# li_select_sort = select_sort(li)
-# print("选择排序: ", li_select_sort)
-#
-# li_bubble_sort = bubble_sort(li)
-# print("冒泡排序: ", li_bubble_sort)
-
-
-
-
-print(insert_sort(li))

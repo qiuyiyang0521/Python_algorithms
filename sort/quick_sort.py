@@ -1,5 +1,5 @@
-from random import shuffle
 import time
+from random import shuffle
 
 
 def partition(data: list, left: int, right: int) -> int:
@@ -26,7 +26,7 @@ def partition(data: list, left: int, right: int) -> int:
 def quick_sort(data: list, left: int, right: int) -> list:
     # print(f"{left}到{right}")
 
-    __data =  data.copy()
+    __data = data.copy()
 
     # 如果左边索引小于右边索引，继续进行排序
     if left < right:
