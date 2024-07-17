@@ -1,4 +1,4 @@
-from random import shuffle
+from random import randint
 from time import time
 
 import bubble_sort
@@ -18,8 +18,7 @@ def timer(func, *args, **kwargs):
     return end_time - start_time
 
 
-testing_list = list(range(0, 10001))
-shuffle(testing_list)
+testing_list = [randint(0, 1000000) for _ in range(10000)]
 print("Testing list:", testing_list)
 
 print("-" * 600)
