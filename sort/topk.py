@@ -28,6 +28,7 @@ def heapify(li: list, start_index: int, end_index: int) -> None:
         else:
             break
 
+
 def build_heap(li: list) -> None:
     """
     构建堆
@@ -44,3 +45,26 @@ def heap_sort(li: list) -> None:
     for i in range(len(li) - 1, 0, -1):
         li[0], li[i] = li[i], li[0]
         heapify(li, 0, i - 1)
+
+
+def topk(li: list, k: int) -> list:
+    heap = li[:k]
+    heapify(heap, 0, len(heap) - 1)
+    print(heap)
+    for i in range(k, len(li)):
+        if li[i] <= heap[0]:
+            continue
+        else:
+            heap[0] = li[i]
+
+    for x in range(len(heap) - 1, 0, -1):
+        heap[x], heap[0] = heap[0], heap[x]
+        heapify(heap, 0, x - 1)
+
+    return heap
+
+
+if __name__ == '__main__':
+    li = [9, 4, 8, 7, 3, 5, 6, 2, 1, 5, 6, 4]
+    result = topk(li, 3)
+    print(result)

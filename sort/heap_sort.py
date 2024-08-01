@@ -68,14 +68,12 @@ def heap_sort(li):
         sift(li, i, last)
     # 建堆完成
     print("Sorted list:", li)
-    
-    for i in range(length -1 ,-1 ,-1):
+
+    for i in range(length - 1, -1, -1):
         # i指向堆的最后一个元素
         # 堆的根节点和最后一个元素交换
         li[1], li[i] = li[i], li[1]
-        
 
-        
 
 if __name__ == '__main__':
     li = [i for i in range(100)]

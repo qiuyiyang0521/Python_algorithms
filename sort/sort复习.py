@@ -27,7 +27,8 @@ def bubble_sort(input_list):
             # 判断排序的值与下一个数的值哪一个大
             if sorted_list[y] > sorted_list[y + 1]:
                 # 如果排序的值后一个数大，则交换两数位置
-                sorted_list[y], sorted_list[y + 1] = sorted_list[y + 1], sorted_list[y]
+                sorted_list[y], sorted_list[y +
+                                            1] = sorted_list[y + 1], sorted_list[y]
 
     # 返回排序好的列表
     return sorted_list
@@ -49,3 +50,6 @@ def insert_sort(input_list):
 
     # 返回排序好的列表
     return sorted_list
+
+
+print()
